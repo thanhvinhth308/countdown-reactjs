@@ -1,0 +1,7 @@
+.container {
+  min-width: 33%;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

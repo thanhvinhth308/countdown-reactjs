@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+.LoginForm {
+  margin: 0;
+  padding: 125px 0px;
+  height: 100vh;
+}
+
+.loginBox {
+  background: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  margin: auto;
+}
+form {
+  padding: 20px;
+}
+.loginBox h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.loginBox .loginInput {
+  position: relative;
+}
+.loginBox .loginInput input {
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+  background: none;
+  width: 100%;
+  outline: none;
+  color: #fff;
+}
+.loginBox .loginInput label {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.loginBox .loginInput input:focus ~ label,
+.loginBox .loginInput input:valid ~ label {
+  top: -15px;
+  left: 0;
+  color: aqua;
+  font-size: 12px;
+}
+.loginBox button {
+  position: relative;
+  display: inline-block;
+  color: #03e9f4;
+  margin-top: 40px;
+  margin-left: 180px;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: none;
+  transition: 1s;
+  box-shadow: 0 0 50px #03e9f4, 0 0 25px #03e9f4;
+  outline: none;
+}
+.loginBox button:hover {
+  background-color: #03e9f4;
+  color: #fff;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+#loginStatus {
+  color: white;
+}

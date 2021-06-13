@@ -1,0 +1,43 @@
+.buttonPrimary {
+  background-color: greenyellow;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 30px;
+  border: 7px solid black;
+  border-radius: 10px;
+  min-width: 220px;
+  cursor: pointer;
+}
+.buttonPrimary:hover {
+  opacity: 0.7;
+}
+.buttonContinue {
+  background-color: rgb(180, 180, 249);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 30px;
+  border: 7px solid black;
+  border-radius: 10px;
+  min-width: 220px;
+  cursor: pointer;
+}
+.buttonContinue:hover {
+  opacity: 0.7;
+}
+.buttonWarning {
+  background-color: red;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 50px;
+  border: 7px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buttonWarning:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 43px;
+}

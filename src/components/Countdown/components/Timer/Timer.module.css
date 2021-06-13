@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(160, 221, 190);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.colon {
+  align-self: center;
+  font-size: 70px;
+}

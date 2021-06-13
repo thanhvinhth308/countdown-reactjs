@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(71, 71, 188);
+  color: white;
+  padding: 5px;
+}
+.button {
+  color: white;
+  border: none;
+  background-color: rgb(71, 71, 188);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.button:hover {
+  color: gainsboro;
+}

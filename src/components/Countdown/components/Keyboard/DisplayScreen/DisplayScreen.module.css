@@ -1,0 +1,21 @@
+.container {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: rgb(160, 221, 190);
+}
+.item {
+  min-width: 33%;
+  font-size: 70px;
+  font-weight: bold;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.colon {
+  align-self: center;
+  font-size: 70px;
+}
